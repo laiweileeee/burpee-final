@@ -64,7 +64,7 @@ export const pokemon = [
         type: 'Ground'
       },   
       {
-        countReq: 9,
+        countReq: 3,
         id: 384,
         name: 'Rayquaza',
         height: '7.0 m (23′00″)',
@@ -72,7 +72,7 @@ export const pokemon = [
         type: 'Dragon, Flying'
       },
       {
-        countReq: 10,
+        countReq: 3,
         id: 150,
         name: 'Mewtwo',
         height: '2.0 m (6′07″)',
