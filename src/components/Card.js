@@ -40,7 +40,7 @@ class Card extends Component {
     renderParentClass = (id) => {
         //check against the unlockedList and only render div covers for the locked ones
         if (unlockedList.includes(id)) {
-            return 'br3 pa10 ma3 bw2';
+            return 'br3 pa10 ma3 bw2 z-unset';
         } else {
             return 'br3 pa10 ma3 bw2 parent';
         }
@@ -48,7 +48,8 @@ class Card extends Component {
 
     renderChildClass = (id) => {
         if (unlockedList.includes(id)) {
-            return 'tc bg-washed-blue br3 pa10 ma2 bw3 ba grow child z-1 shadow';
+            //change z-index to make it show
+            return 'tc bg-washed-blue br3 pa10 ma2 bw3 ba grow child z-max shadow';
         } else {
             return 'tc bg-washed-blue br3 pa10 ma2 bw3 ba grow child';
         }
