@@ -1,0 +1,16 @@
+.home-button {
+    position: absolute;
+}
+
+@media (max-width: 500px) {
+    .text1 {
+        margin-top: 60px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .home-button {
+        left: 75px;
+        top: 150px;
+    }
+}
