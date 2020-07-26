@@ -11,6 +11,7 @@ const burpee = 'Burpee'
 
 //storing the number of timely reminders completed
 let count = read_cookie('countCookie');
+console.log('cookie count', count);
 
 class App extends Component {
   // eslint-disable-next-line
@@ -29,7 +30,7 @@ class App extends Component {
   completeReminders = (reminder) => {
     let newCount = count++;
     if (moment() <= moment(new Date(reminder.dueDate))) {
-      bake_cookie('countCookie', newCount);
+      bake_cookie('countCookie', count);
       console.log(moment() <= moment(new Date(reminder.dueDate)));
     }
   }
