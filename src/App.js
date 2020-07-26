@@ -28,7 +28,7 @@ class App extends Component {
   }
 
   completeReminders = (reminder) => {
-    let newCount = count++;
+    count++;
     if (moment() <= moment(new Date(reminder.dueDate))) {
       bake_cookie('countCookie', count);
       console.log(moment() <= moment(new Date(reminder.dueDate)));

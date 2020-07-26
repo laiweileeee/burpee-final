@@ -40,7 +40,7 @@ class Card extends Component {
     renderParentClass = (id) => {
         //check against the unlockedList and only render div covers for the locked ones
         if (unlockedList.includes(id)) {
-            return 'br3 pa10 ma3 bw2 z-unset';
+            return 'ma3 shadow-hover::after';
         } else {
             return 'br3 pa10 ma3 bw2 parent';
         }
