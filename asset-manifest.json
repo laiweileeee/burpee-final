@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/burpee-final/static/css/main.6674e319.chunk.css",
+    "main.js": "/burpee-final/static/js/main.756e6b42.chunk.js",
+    "main.js.map": "/burpee-final/static/js/main.756e6b42.chunk.js.map",
+    "runtime-main.js": "/burpee-final/static/js/runtime-main.4a54d62c.js",
+    "runtime-main.js.map": "/burpee-final/static/js/runtime-main.4a54d62c.js.map",
+    "static/css/2.3c03f26f.chunk.css": "/burpee-final/static/css/2.3c03f26f.chunk.css",
+    "static/js/2.f09d80a9.chunk.js": "/burpee-final/static/js/2.f09d80a9.chunk.js",
+    "static/js/2.f09d80a9.chunk.js.map": "/burpee-final/static/js/2.f09d80a9.chunk.js.map",
+    "index.html": "/burpee-final/index.html",
+    "precache-manifest.e58a5bc236e52f4aa3f7a63aeb6c569a.js": "/burpee-final/precache-manifest.e58a5bc236e52f4aa3f7a63aeb6c569a.js",
+    "service-worker.js": "/burpee-final/service-worker.js",
+    "static/css/2.3c03f26f.chunk.css.map": "/burpee-final/static/css/2.3c03f26f.chunk.css.map",
+    "static/css/main.6674e319.chunk.css.map": "/burpee-final/static/css/main.6674e319.chunk.css.map",
+    "static/js/2.f09d80a9.chunk.js.LICENSE.txt": "/burpee-final/static/js/2.f09d80a9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a54d62c.js",
+    "static/css/2.3c03f26f.chunk.css",
+    "static/js/2.f09d80a9.chunk.js",
+    "static/css/main.6674e319.chunk.css",
+    "static/js/main.756e6b42.chunk.js"
+  ]
+}
