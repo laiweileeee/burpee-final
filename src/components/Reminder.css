@@ -106,8 +106,9 @@ h1 {
 @media (max-width: 576px) {
     .reminder-container {
         grid-template-columns: auto;
-        min-width: 10vh;
+        width: 200px;
         height: 2fr;
+        overflow: auto;
     }
 
     .title {
@@ -118,6 +119,7 @@ h1 {
 
     .reminder-inputs {
         display: inline-block;
+        overflow: auto;
     }
 
     .btn-success {
