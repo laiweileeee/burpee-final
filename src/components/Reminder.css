@@ -120,6 +120,13 @@ h1 {
         display: inline-block;
     }
 
+    .form-control {
+        margin: 20px;
+        padding: 10px;
+        width: 150px;
+        height: 46px;
+    }
+
     .btn-success {
         margin-top: 0px;
         margin-right: 10px;

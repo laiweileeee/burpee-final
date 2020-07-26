@@ -40,13 +40,13 @@ class Reminder extends Component {
             this.setState({ input: '' })
             document.getElementById("myForm").value = '';
             bake_cookie('reminders', this.state.reminders);
-            // console.log('added reminders', this.state.reminders);
-            // console.log('curernt date', this.state.reminders.dueDate);
-            // console.log('js date', moment(new Date()))
             //render notifications
             const item = this.state.input;
             const time = moment(new Date(this.state.dueDate)).fromNow();
             this.renderAddConfirmation(item, time);
+            // console.log('added reminders', this.state.reminders);
+            // console.log('curernt date', this.state.reminders.dueDate);
+            // console.log('js date', moment(new Date()))
         } else {
             alert('Missing inputs or invalid inputs. Date set must be in the future. Please re-enter valid inputs!')
         }
@@ -113,12 +113,12 @@ class Reminder extends Component {
             }
         });
     }
-    
+
     wrapperComplete = (reminder) => {
         this.props.completeReminders(reminder);
         this.deleteReminders(reminder.id);
     }
-    
+
     //pop expiring reminders when loaded
     componentDidMount = () => {
         this.state.reminders.forEach(reminder => {
