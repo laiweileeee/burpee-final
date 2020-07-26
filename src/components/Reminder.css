@@ -106,7 +106,7 @@ h1 {
 @media (max-width: 576px) {
     .reminder-container {
         grid-template-columns: auto;
-        width: 200px;
+        width: 20vh;
         height: 2fr;
         overflow: auto;
     }
@@ -119,6 +119,7 @@ h1 {
 
     .reminder-inputs {
         display: inline-block;
+        width: 300px;
         overflow: auto;
     }
 
